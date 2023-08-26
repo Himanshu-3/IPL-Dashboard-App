@@ -5,7 +5,7 @@ import './index.css'
 
 class TeamCard extends Component {
   render() {
-    const {teamData} = this.state
+    const {teamData} = this.props
     const {name, imageUrl, id} = teamData
 
     return (
